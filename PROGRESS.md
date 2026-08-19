@@ -47,7 +47,8 @@
 - [x] 2026-08-19 **用户明确要求：每个函数/类/关键字都要逐个解释（如 json.JSONDecodeError 之前没见过）**
       → 教学原则：**零假设**——不预设用户见过任何东西，出现一个讲一个
 - [x] 2026-08-19 讲授**相对路径 vs 当前工作目录（CWD）**——example.json 经典案例（程序在 CWD 找相对路径，不在脚本所在目录找）
-- [ ] 待办：热身练习——JSON 工具箱（feature 分支 → 合并 → 删除），逐步带写中（load_json / save_json / pretty ✅；**find_by_key 待写**）
+- [x] 2026-08-19 提交信息「显示乱码」真相：存储是 UTF-8 没问题，是 PowerShell 代码页 GBK 显示问题（解决：chcp 65001 / core.quotepath false / 提交信息用英文）
+- [ ] 待办：热身练习——JSON 工具箱（feature 分支 → 合并 → 删除），逐步带写中（load_json / save_json / pretty ✅；**find_by_key 递归教学中**）
 
 ## ⚠️ 重要发现（影响教学方式）
 
