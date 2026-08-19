@@ -27,6 +27,14 @@
 - [x] 2026-08-19 搭建学习仓库目录结构（README / ROADMAP / PROGRESS / LESSONS / LOGS / NOTES / PROJECTS）
 - [x] 2026-08-19 初始化本地 git 仓库并完成首次 commit
 - [x] 2026-08-19 备好 lesson-001（终端与 Hello World）与 lesson-002（推送到 GitHub）讲义
+- [x] 2026-08-19 备好 lesson-003（变量与数据类型，阶段 1 第一课）讲义
+
+## ⚠️ 重要发现（影响教学方式）
+
+- AI 的执行沙箱**无法访问外网**（github/baidu/bing 均连接失败）
+- 影响：**涉及网络的 git 命令（push / pull / clone）必须由你在 VSCode 终端亲自执行**
+- 这是好消息：本来就应该由你亲手敲命令练习，AI 负责在旁边一步步指导
+- 本地 git 操作（init / add / commit / log）AI 可以代为执行并讲解
 
 ## 下一步（下次会话的目标）
 
