@@ -65,7 +65,7 @@ first = "张"
 last = "三"
 full = first + last        # 拼接：用 +
 print(full)                # 张三
-print("哈" * 3)            # 哈哈哈哈哈哈 哈？不对——是 "哈哈哈"（字符串也能乘！）
+print("哈" * 3)            # 哈哈哈（字符串可以乘：重复 3 遍）
 
 name = "小明"
 age = 18
