@@ -26,6 +26,7 @@
 - [x] 2026-08-19 确认 git 全局身份已配置（6izomkudis-create）
 - [x] 2026-08-19 搭建学习仓库目录结构（README / ROADMAP / PROGRESS / LESSONS / LOGS / NOTES / PROJECTS）
 - [x] 2026-08-19 初始化本地 git 仓库并完成首次 commit
+- [x] 2026-08-19 备好 lesson-001（终端与 Hello World）与 lesson-002（推送到 GitHub）讲义
 
 ## 下一步（下次会话的目标）
 
