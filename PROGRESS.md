@@ -48,7 +48,9 @@
       → 教学原则：**零假设**——不预设用户见过任何东西，出现一个讲一个
 - [x] 2026-08-19 讲授**相对路径 vs 当前工作目录（CWD）**——example.json 经典案例（程序在 CWD 找相对路径，不在脚本所在目录找）
 - [x] 2026-08-19 提交信息「显示乱码」真相：存储是 UTF-8 没问题，是 PowerShell 代码页 GBK 显示问题（解决：chcp 65001 / core.quotepath false / 提交信息用英文）
-- [ ] 待办：热身练习——JSON 工具箱（feature 分支 → 合并 → 删除），逐步带写中（load_json / save_json / pretty ✅；**find_by_key 递归教学中**）
+- [x] 2026-08-19 **JSON 工具箱项目完成** ✅：load_json / save_json / pretty / find_by_key（递归）全部实现、测试通过
+- [x] 2026-08-19 **分支工作流完整走通** ✅：开分支 → 开发 → commit → 合并（Fast-forward）→ 删分支 → push
+- [x] 2026-08-19 讲授「什么该提交」：运行产物（output.json）用 .gitignore 剔除（git rm --cached 保留本地文件）；测试数据（example.json）与测试代码保留
 
 ## ⚠️ 重要发现（影响教学方式）
 
@@ -59,9 +61,9 @@
 
 ## 下一步（下次会话的目标）
 
-1. **修复 GitHub 默认分支**（进行中）：把默认分支从 main 切到 master，内容即可显示
-2. **快速过一遍**（1~2 次会话）：Python 扫盲清单（确认无盲点）+ API 调用结构（结构化输出、function calling 概念）
-3. **进入阶段 4：Agent 核心**（重头戏）：ReAct、工具调用、手写最小 Agent
+1. **API 调用结构快速过一遍**（1 次会话）：消息格式、结构化输出（JSON mode）、function calling / tools 概念——全部直接服务于 Agent
+2. **进入阶段 4：Agent 核心**（重头戏）：Agent 本质、ReAct 模式、工具调用、手写最小 Agent
+3. 途中顺带：.env 环境变量（藏 API key 的正确方式，红线知识）
 
 ## 待解决问题 / 待办
 
