@@ -23,3 +23,6 @@ Thumbs.db
 *.log
 tmp/
 temp/
+
+# ===== 运行产物（程序生成的，不进仓库）=====
+output.json
