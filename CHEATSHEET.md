@@ -31,6 +31,10 @@
 | `git push -u origin master` | 首次推送 |
 | `git push` | 以后推送 |
 | `git pull` | 拉取远程更新 |
+| `git branch` | 查看所有分支（`*` = 当前所在分支） |
+| `git switch 分支名` | 切换到某个分支 |
+| `git switch -c 新分支名` | **创建并切换**到新分支（最常用） |
+| `git branch -M 新名字` | 重命名当前分支（-M = 强制改名） |
 
 ## 三、Python（已学内容）
 
